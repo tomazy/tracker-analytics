@@ -1,0 +1,8 @@
+li.dropdown
+  a.dropdown-toggle(href="#" data-toggle="dropdown")
+    | Projects &nbsp;
+    span.caret
+  ul.dropdown-menu
+    li(ng-repeat="project in projects")
+      a(ui-sref="project({project: project.project_name})") {{project.name}}
+

@@ -1,0 +1,5 @@
+form.form-inline(role="form" ng-submit="login()")
+  .form-group
+    label.sr-only Token
+    input.form-control(type="password" required placeholder="Token" ng-model="token")
+  button.btn.btn-default(type="submit" ng-disabled="isSigningIn") Sign in
