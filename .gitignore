@@ -1,0 +1,10 @@
+.tmp
+.sass-cache
+node_modules/
+www/*
+bower_components/
+tmp/
+platforms/
+plugins/
+.vimrc
+npm-debug.log
